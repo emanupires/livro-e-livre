@@ -1,0 +1,30 @@
+.banner {
+    margin-top: 30px;
+
+    position: relative;
+}
+
+.banner_img {
+    width: auto;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.banner_texto {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(75%, -50%);
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.banner_texto-cor {
+    color: var(--vermelho);
+}

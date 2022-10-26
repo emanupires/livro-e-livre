@@ -1,0 +1,11 @@
+:root {
+    --branco: #F6F7EB;
+    --vermelho: #E94F37;
+    --preto: #393E41;
+}
+
+body {
+    background: var(--branco);
+    color: var(--preto);
+    font-family: 'Poppins', sans-serif;
+}

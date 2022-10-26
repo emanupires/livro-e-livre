@@ -1,0 +1,9 @@
+.sobre_index {
+    float: right;
+}
+
+.sobre_titulo {
+    color: var(--vermelho);
+    font-size: 24px;
+    margin: 30px 0 15px 0;
+}

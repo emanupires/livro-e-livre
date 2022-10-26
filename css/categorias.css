@@ -1,0 +1,77 @@
+.categorias {
+    width: 67%;
+    margin: 30px auto 0 auto;
+    padding: 0.5em;
+}
+
+.categorias_populares, .categorias_titulo {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.categorias_populares-texto {
+    color: var(--vermelho);
+}
+
+.livros_titulo {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin: 30px 0 15px 0;
+}
+
+.livros_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.veja_mais {
+    margin-top: 10px;
+
+    text-align: right;
+    align-content: center;
+    font-size: 18px;
+}
+
+.veja_mais a {
+    text-decoration: none;
+    color: var(--vermelho);
+}
+
+.veja_mais a:hover {
+    color: var(--preto);
+}
+
+.veja_mais i {
+    vertical-align: bottom;
+    font-size: inherit !important;
+}
+.outras_categorias i {
+    vertical-align: bottom;
+    font-size: 18px  !important;
+}
+
+.categorias_titulo {
+    margin: 30px 0 15px 0;
+}
+
+.outras_categorias {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.outras_categorias i {
+    vertical-align: center;
+}
+
+.outras_categorias-link a {
+    text-decoration: none;
+    color: var(--vermelho);
+}
+
+.outras_categorias-link a:hover {
+    color: var(--preto);
+    transition: 0.6s;
+}
