@@ -28,3 +28,33 @@
 .banner_texto-cor {
     color: var(--vermelho);
 }
+
+@media only screen and (max-width: 1240px) {
+    .banner_img {
+        max-width: 850px;
+        height: 250px;
+    }
+
+    .banner_texto {
+        font-size: 24px;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(30%, -50%);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .banner_img {
+        max-width: 430px;
+        height: 150px;
+    }
+    
+    .banner_texto {
+        font-size: 18px;
+
+        top: 50%;
+        left: 30%;
+        transform: translate(30%, -50%);
+    }
+}
