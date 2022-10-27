@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--vermelho);
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.logo {
+    width: 50px;
+}
+
+.logo_menu {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    padding: 0.5em;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo_texto {
+    color: var(--branco);
+}
+
+.footer p {
+    display: flex;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}

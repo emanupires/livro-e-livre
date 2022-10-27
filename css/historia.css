@@ -1,0 +1,37 @@
+.mais_historia {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.titulo_historia {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--vermelho);
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.historia_texto {
+    padding-top: 15px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.subtitulo_historia {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mais_historia img {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1500px)
+{
+    .mais_historia img {
+        max-width: 200px;
+    }
+}

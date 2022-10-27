@@ -1,0 +1,78 @@
+.livros_ficcao {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.resultado_titulo {
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.resultado_destaque {
+    font-weight: bold;
+}
+
+.livros_container-principal {
+    display: grid;
+    gap: 40px 10px;
+    grid-template-areas:
+    'img img img img img img'
+    'img img img img img img';
+}
+
+.livros_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.livros_container img {
+    padding-right: 10px;
+}
+
+.veja_tambem {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .livros_container-principal {
+        gap: 20px 5px;
+        width: 100px;
+    }
+
+    .livros_container img {
+        max-width: 100px;
+    }
+
+    .img_grande {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .resultado_titulo {
+        font-size: 16px;
+    }
+
+    .livros_container img {
+        max-width: 100px;
+        padding: 5px;
+    }
+
+    .veja_tambem {
+        font-size: 12px;
+    }
+
+    .img_extra {
+        visibility: hidden;
+    }
+
+    .livros_container-principal {
+        gap: 10px 5px;
+        object-fit: cover;
+    }
+}

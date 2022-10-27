@@ -80,7 +80,7 @@
     transition: 0.6s;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1540px) {
     .livros_container img {
         max-width: 140px;
     }
@@ -92,7 +92,7 @@
 
 @media only screen and (max-width: 900px) {
     .livros_container img {
-        max-width: 100;
+        max-width: 100px;
     }
 
     .img_grande {

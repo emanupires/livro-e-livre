@@ -59,6 +59,7 @@
     
     .nav {
         max-width: 650px;
+        flex-direction: column;
     }
 
     .titulo {
